@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Accounting Assistant</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Custom scrollbar for webkit browsers - Celeste theme */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #bae6fd; /* sky-200 */
+      border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #0ea5e9; /* sky-500 */
+      border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #0284c7; /* sky-600 */
+    }
+    body {
+      font-family: 'Inter', sans-serif; /* A common Tailwind font */
+    }
+    /* Add Inter font from Google Fonts if not part of default Tailwind */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+    /* Base transition for some interactive elements if not overridden by Tailwind utilities */
+    button, a, input[type="checkbox"], input[type="radio"], select {
+      transition: all 0.15s ease-in-out;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.0.1",
+    "exceljs": "https://esm.sh/exceljs@4.4.0",
+    "mammoth": "https://esm.sh/mammoth@1.7.0"
+  }
+}
+</script>
+</head>
+<body class="bg-slate-100">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html><link rel="stylesheet" href="index.css">
+<script src="index.tsx" type="module"></script>

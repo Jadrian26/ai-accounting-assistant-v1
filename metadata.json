@@ -1,0 +1,6 @@
+{
+  "name": "AI Accounting Assistant V1",
+  "description": "An application to help with accounting entries through AI collaboration. Manage media, use templates, and collaboratively edit documents with an AI assistant.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
